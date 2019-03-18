@@ -1,6 +1,4 @@
 FROM ubuntu:14.04
-MAINTAINER Quang-Nhat Hoang-Xuan <hxquangnhat@gmail.com>
-
 # Install packages
 RUN apt-get update && \
   apt-get -y install git apache2 libapache2-mod-php5 php5-mysql pwgen php5-dev php-apc php5-mcrypt php5-imap php5-ldap php5-curl php5-memcached vim wget && \
