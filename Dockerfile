@@ -23,6 +23,6 @@ RUN tar -xvf  zurmo-stable-3.2.5.d5d5f53cc259.tar.gz
 RUN mv zurmo /var/www/html
 RUN chmod -R 777 /var/www/html/zurmo
 
-EXPOSE 80
+EXPOSE 8484
 
 CMD ["/usr/sbin/apache2ctl", "-DFOREGROUND"]
