@@ -7,7 +7,7 @@ A dockerfile for Zurmo CRM application.
 Default username/password/databasename is zurmo
 # How to run
 ```bash
-docker run -itd -p 80:80 hxquangnhat/zurmo:latest
+docker run -itd -p 80:80 yobitel/zurmo:latest
 docker run --name mysql -itd -p 3306:3306 \
             -e MYSQL_ROOT_PASSWORD=admin \
             -e MYSQL_DATABASE=zurmo \
