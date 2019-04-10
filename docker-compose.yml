@@ -2,7 +2,7 @@ version: "2"
 
 services:
   zurmo:
-    image: yobitelcom/zurmo
+    image: yobitelcom/Zurmo
     container_name: zurmo
     hostname: zurmo
     ports:
